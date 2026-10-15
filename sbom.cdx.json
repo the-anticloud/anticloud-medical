@@ -1,0 +1,179 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:34a4e52f-0c59-5c8b-be18-86db70f6ecb6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:25:35Z",
+    "component": {
+      "type": "application",
+      "name": "MEDICAL",
+      "version": "ce1fbc548d5d",
+      "bom-ref": "pkg:generic/anticloud/MEDICAL@ce1fbc548d5d",
+      "purl": "pkg:generic/anticloud/MEDICAL@ce1fbc548d5d",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "ce1fbc548d5d47759905615618ba5c2b391a885a"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/openemr/openemr.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "file",
+      "version": "./oe-blue-button-generate",
+      "purl": "pkg:npm/file@./oe-blue-button-generate",
+      "bom-ref": "npm/file@./oe-blue-button-generate"
+    },
+    {
+      "type": "library",
+      "name": "libxmljs2",
+      "version": "0.37.0",
+      "purl": "pkg:npm/libxmljs2@0.37.0",
+      "bom-ref": "npm/libxmljs2@0.37.0"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "4.18.1",
+      "purl": "pkg:npm/lodash@4.18.1",
+      "bom-ref": "npm/lodash@4.18.1"
+    },
+    {
+      "type": "library",
+      "name": "moment",
+      "version": "2.31.0",
+      "purl": "pkg:npm/moment@2.31.0",
+      "bom-ref": "npm/moment@2.31.0"
+    },
+    {
+      "type": "library",
+      "name": "net",
+      "version": "1.0.2",
+      "purl": "pkg:npm/net@1.0.2",
+      "bom-ref": "npm/net@1.0.2"
+    },
+    {
+      "type": "library",
+      "name": "body-parser",
+      "version": "1.20.8",
+      "purl": "pkg:npm/body-parser@1.20.8",
+      "bom-ref": "npm/body-parser@1.20.8"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "14.0.2",
+      "purl": "pkg:npm/uuid@14.0.2",
+      "bom-ref": "npm/uuid@14.0.2"
+    },
+    {
+      "type": "library",
+      "name": "xml2js",
+      "version": "0.6.2",
+      "purl": "pkg:npm/xml2js@0.6.2",
+      "bom-ref": "npm/xml2js@0.6.2"
+    },
+    {
+      "type": "library",
+      "name": "bluebird",
+      "version": "3.7.2",
+      "purl": "pkg:npm/bluebird@3.7.2",
+      "bom-ref": "npm/bluebird@3.7.2"
+    },
+    {
+      "type": "library",
+      "name": "compression",
+      "version": "^1.8.2",
+      "purl": "pkg:npm/compression@^1.8.2",
+      "bom-ref": "npm/compression@^1.8.2"
+    },
+    {
+      "type": "library",
+      "name": "cqm-execution",
+      "version": "^4.4.3",
+      "purl": "pkg:npm/cqm-execution@^4.4.3",
+      "bom-ref": "npm/cqm-execution@^4.4.3"
+    },
+    {
+      "type": "library",
+      "name": "cqm-models",
+      "version": "^4.3.2",
+      "purl": "pkg:npm/cqm-models@^4.3.2",
+      "bom-ref": "npm/cqm-models@^4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "express",
+      "version": "^4.22.3",
+      "purl": "pkg:npm/express@^4.22.3",
+      "bom-ref": "npm/express@^4.22.3"
+    },
+    {
+      "type": "library",
+      "name": "logform",
+      "version": "1.10.0",
+      "purl": "pkg:npm/logform@1.10.0",
+      "bom-ref": "npm/logform@1.10.0"
+    },
+    {
+      "type": "library",
+      "name": "luxon",
+      "version": "1.28.1",
+      "purl": "pkg:npm/luxon@1.28.1",
+      "bom-ref": "npm/luxon@1.28.1"
+    },
+    {
+      "type": "library",
+      "name": "oe-cqm-parsers",
+      "version": "openemr/oe-cqm-parsers#ecqm-v7.0.4",
+      "purl": "pkg:npm/oe-cqm-parsers@openemr/oe-cqm-parsers#ecqm-v7.0.4",
+      "bom-ref": "npm/oe-cqm-parsers@openemr/oe-cqm-parsers#ecqm-v7.0.4"
+    },
+    {
+      "type": "library",
+      "name": "regexp-clone",
+      "version": "1.2.0",
+      "purl": "pkg:npm/regexp-clone@1.2.0",
+      "bom-ref": "npm/regexp-clone@1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "sliced",
+      "version": "1.0.1",
+      "purl": "pkg:npm/sliced@1.0.1",
+      "bom-ref": "npm/sliced@1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "winston",
+      "version": "3.19.0",
+      "purl": "pkg:npm/winston@3.19.0",
+      "bom-ref": "npm/winston@3.19.0"
+    },
+    {
+      "type": "library",
+      "name": "mocha",
+      "version": "^12.0.2",
+      "purl": "pkg:npm/mocha@^12.0.2",
+      "bom-ref": "npm/mocha@^12.0.2"
+    }
+  ]
+}
