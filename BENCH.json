@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "ef9985ab9a8b26c3b3647d60dc8f51fd41a15229",
-   "url": "https://github.com/shibing624/MedicalGPT",
-   "branch": "main",
-   "sha_verified_from": "GitHub API commits/main | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/liuhuanyong/QASystemOnMedicalKG",
+   "head": "643eccb0dc53635cc14a9a9f3cdb39372a80af62",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/shibing624/MedicalGPT"
   }
  }
 }
